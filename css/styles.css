@@ -133,3 +133,37 @@ p {
 .pricing-card {
   padding: 3% 2%;
 }
+
+/* cta section */
+#cta{
+  padding: 3% 15% 7%;
+  background-color: #FF4C68;
+  color: #fff;
+
+  text-align: center;
+
+}
+
+
+@media (max-width : 1430px) and (min-width : 992px) {
+  .title-image {
+    position : static;
+    transform: rotate(22deg);
+    width: 60%;
+    margin-left: 13.75rem;
+
+  }
+  #features {
+    position: static;
+  }
+}
+
+@media (max-width : 992px) {
+  .title-image {
+    position : static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
