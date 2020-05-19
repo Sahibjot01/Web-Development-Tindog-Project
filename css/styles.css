@@ -190,7 +190,7 @@ section.colored-section{
     position : static;
     transform: rotate(0);
   }
-  #title{
-    text-align: center;
+  #title .container-fluid{
+    text-align : center;
   }
 }
